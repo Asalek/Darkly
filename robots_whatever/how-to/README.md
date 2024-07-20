@@ -12,6 +12,7 @@ the x.x.x.x/robots.txt shows me two files :
 2_ open file to find (root:437394baff5aa33daa618be47b75cb49) writen in it
 3_ it seems like it's a md5 encryption, md5 decrypt website to decrypt it, 
 4_ qwerty123@ founded
+5_ go to x.x.x.x/admin and enter the user: root and password: qwerty123@
 
 
 ## sources
