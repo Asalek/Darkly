@@ -10,3 +10,19 @@ the command will downlaod all folders
 * grep -r "flag" path/to/hidden
 path/to/hidden : represent the folder that contains all the folder you downloaded with wget
 4_ enjoy the flag (^_^)
+
+
+#Fix:
+
+you can make it less accessible by:
+
+Renaming the file: You can rename the file to something else, like robotstxt.txt or crawl-control.txt. This way, it's not easily discoverable by typing /robots.txt in the URL.
+Moving the file: You can move the file to a non-standard location, like /admin/robotstxt.txt or /private/crawl-control.txt. This makes it harder for people to find by guessing the URL.
+Using a redirect: You can set up a redirect from /robots.txt to a non-existent page or a page that says "Access denied". This way, even if someone tries to access the file directly, they'll be redirected elsewhere.
+Using a password protection: You can password-protect the directory where the robots.txt file is located. This way, only authorized users can access the file.
+Keep in mind that these methods won't completely hide the file from search engines, as they can still find it through other means, like:
+
+*Crawling the website's HTML code
+*Analyzing the website's HTTP headers
+*Using other crawl paths
+
