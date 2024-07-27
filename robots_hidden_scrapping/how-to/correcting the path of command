@@ -16,6 +16,7 @@ path/to/hidden : represent the folder that contains all the folder you downloade
 
 you can make it less accessible by:
 
+
 Renaming the file: You can rename the file to something else, like robotstxt.txt or crawl-control.txt. This way, it's not easily discoverable by typing /robots.txt in the URL.
 Moving the file: You can move the file to a non-standard location, like /admin/robotstxt.txt or /private/crawl-control.txt. This makes it harder for people to find by guessing the URL.
 Using a redirect: You can set up a redirect from /robots.txt to a non-existent page or a page that says "Access denied". This way, even if someone tries to access the file directly, they'll be redirected elsewhere.
